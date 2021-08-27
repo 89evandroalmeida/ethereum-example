@@ -1,0 +1,8 @@
+=============== Aug 27, 2021 (-03) ===============
+09:22:41.759122 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:22:41.769357 db@open opening
+09:22:41.771422 version@stat F·[] S·0B[] Sc·[]
+09:22:41.775091 db@janitor F·2 G·0
+09:22:41.775292 db@open done T·5.7558ms
+09:22:41.783529 db@close closing
+09:22:41.784778 db@close done T·1.2482ms

@@ -1,0 +1,74 @@
+=============== Aug 27, 2021 (-03) ===============
+09:25:27.929523 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:25:27.940054 db@open opening
+09:25:27.942283 version@stat F·[] S·0B[] Sc·[]
+09:25:27.944875 db@janitor F·2 G·0
+09:25:27.945035 db@open done T·4.8486ms
+=============== Aug 27, 2021 (-03) ===============
+09:25:44.504521 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:25:44.508169 version@stat F·[] S·0B[] Sc·[]
+09:25:44.508556 db@open opening
+09:25:44.509462 journal@recovery F·1
+09:25:44.510428 journal@recovery recovering @1
+09:25:44.514893 memdb@flush created L0@2 N·2 S·176B "loc..seq,v2":"version,v1"
+09:25:44.516745 version@stat F·[1] S·176B[176B] Sc·[0.25]
+09:25:44.531303 db@janitor F·3 G·0
+09:25:44.531481 db@open done T·22.762ms
+=============== Aug 27, 2021 (-03) ===============
+09:26:57.644633 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:26:57.648461 version@stat F·[1] S·176B[176B] Sc·[0.25]
+09:26:57.648920 db@open opening
+09:26:57.649860 journal@recovery F·1
+09:26:57.650414 journal@recovery recovering @3
+09:26:57.655292 memdb@flush created L0@5 N·1 S·159B "loc..seq,v4":"loc..seq,v4"
+09:26:57.657252 version@stat F·[2] S·335B[335B] Sc·[0.50]
+09:26:57.672117 db@janitor F·4 G·0
+09:26:57.672309 db@open done T·23.2297ms
+09:29:49.163936 db@close closing
+09:29:49.164929 db@close done T·991.9µs
+=============== Aug 27, 2021 (-03) ===============
+09:29:57.674182 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:29:57.677817 version@stat F·[2] S·335B[335B] Sc·[0.50]
+09:29:57.678208 db@open opening
+09:29:57.679073 journal@recovery F·1
+09:29:57.680334 journal@recovery recovering @6
+09:29:57.692652 memdb@flush created L0@8 N·1 S·159B "loc..seq,v6":"loc..seq,v6"
+09:29:57.696114 version@stat F·[3] S·494B[494B] Sc·[0.75]
+09:29:57.713671 db@janitor F·5 G·0
+09:29:57.713826 db@open done T·35.4968ms
+09:34:08.333533 db@close closing
+09:34:08.334877 db@close done T·1.3427ms
+=============== Aug 27, 2021 (-03) ===============
+09:34:19.227468 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:34:19.231865 version@stat F·[3] S·494B[494B] Sc·[0.75]
+09:34:19.232280 db@open opening
+09:34:19.233290 journal@recovery F·1
+09:34:19.234498 journal@recovery recovering @9
+09:34:19.246247 memdb@flush created L0@11 N·1 S·159B "loc..seq,v8":"loc..seq,v8"
+09:34:19.248724 version@stat F·[4] S·653B[653B] Sc·[1.00]
+09:34:19.264928 db@janitor F·6 G·0
+09:34:19.265110 db@open done T·32.7064ms
+09:34:19.265172 table@compaction L0·4 -> L1·0 S·653B Q·9
+09:34:19.271272 db@close closing
+09:34:19.273514 table@build created L1@14 N·2 S·176B "loc..seq,v8":"version,v1"
+09:34:19.273647 table@build exiting
+09:34:19.273789 table@build revert @14
+09:34:19.276047 db@close done T·4.7737ms
+=============== Aug 27, 2021 (-03) ===============
+09:34:30.782943 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:34:30.786414 version@stat F·[4] S·653B[653B] Sc·[1.00]
+09:34:30.786761 db@open opening
+09:34:30.787623 journal@recovery F·1
+09:34:30.788311 journal@recovery recovering @12
+09:34:30.801767 memdb@flush created L0@14 N·1 S·159B "loc..seq,v10":"loc..seq,v10"
+09:34:30.809147 version@stat F·[5] S·812B[812B] Sc·[1.25]
+09:34:30.878777 db@janitor F·7 G·0
+09:34:30.879519 db@open done T·92.6259ms
+09:34:30.879670 table@compaction L0·5 -> L1·0 S·812B Q·11
+09:34:30.910625 table@build created L1@17 N·2 S·176B "loc..seq,v10":"version,v1"
+09:34:30.911180 version@stat F·[0 1] S·176B[0B 176B] Sc·[0.00 0.00]
+09:34:30.915388 table@compaction committed F-4 S-636B Ke·0 D·4 T·31.6299ms
+09:34:30.917219 table@remove removed @11
+09:34:30.918514 table@remove removed @8
+09:34:30.919944 table@remove removed @5
+09:34:30.921226 table@remove removed @2
